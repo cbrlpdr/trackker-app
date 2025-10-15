@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trackker App
 
-## Getting Started
+Trackker é o aplicativo definitivo para corredores. Registre suas corridas, acompanhe seu progresso e alcance novos recordes.
 
-First, run the development server:
+## Tecnologias Utilizadas
 
+- **Next.js**: Framework React para aplicações web modernas.
+- **TypeScript**: Tipagem estática para maior segurança e produtividade.
+- **Prisma**: ORM para banco de dados PostgreSQL.
+- **Clerk**: Autenticação e gerenciamento de usuários.
+- **Tailwind CSS**: Estilização rápida e eficiente.
+
+## Estrutura do Projeto
+
+- **`src/app`**: Contém as páginas e layouts principais.
+  - **`layout.tsx`**: Layout base da aplicação.
+  - **`dashboard/`**: Páginas e componentes relacionados ao painel do usuário.
+  - **`user/`**: Páginas relacionadas ao perfil do usuário.
+- **`src/components`**: Componentes reutilizáveis, como botões e formulários.
+- **`src/lib`**: Funções utilitárias e tipos globais.
+- **`src/server`**: Lógica de backend, como ações relacionadas a sessões de treino.
+- **`prisma/schema.prisma`**: Definição do banco de dados.
+
+## Como Rodar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/cbrlpdr/trackker-app.git
+   cd trackker-app
+   
+2. Instale as dependências:
+
+3. Configure as variáveis de ambiente:
+- Copie o arquivo .env.example para .env e preencha as variáveis necessárias.
+
+4. Execute as migrações do banco de dados:
+```bash
+npx prisma migrate dev
+```
+5. Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+6. Acesse a aplicação em http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deploy
+Para fazer o deploy, recomendamos o uso da Vercel. Consulte a documentação oficial do Next.js para mais detalhes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
