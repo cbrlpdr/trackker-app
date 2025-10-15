@@ -7,7 +7,7 @@
   /* Updated color palette for Tracker running app theme */
   --background: oklch(1 0 0); /* #ffffff */
   --foreground: oklch(0.3 0 0); /* #374151 */
-  --card: oklch(0.98 0.02 142); /* #f0fdf4 */
+  --card: oklch(97.614% 0.00011 271.152);
   --card-foreground: oklch(0.3 0 0); /* #374151 */
   --popover: oklch(1 0 0); /* #ffffff */
   --popover-foreground: oklch(0.3 0 0); /* #374151 */
@@ -15,7 +15,7 @@
   --primary-foreground: oklch(1 0 0); /* #ffffff */
   --secondary: oklch(0.75 0.2 100); /* #84cc16 */
   --secondary-foreground: oklch(0.3 0 0); /* #374151 */
-  --muted: oklch(0.98 0.02 142); /* #f0fdf4 */
+  --muted: oklch(97.614% 0.00011 271.152);
   --muted-foreground: oklch(0.3 0 0); /* #374151 */
   --accent: oklch(0.45 0.15 142); /* #15803d */
   --accent-foreground: oklch(1 0 0); /* #ffffff */

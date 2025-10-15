@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Timer, MapPin, TrendingUp, Calendar } from "lucide-react"
+import { Timer, MapPin, TrendingUp, Calendar, Footprints } from "lucide-react"
 
 interface MetricsOverviewProps {
   totalDistance: number
@@ -38,13 +38,13 @@ export function MetricsOverview({ totalDistance, totalDuration, averagePace, tot
       title: "Pace Médio",
       value: `${formatPace(averagePace)}/km`,
       icon: TrendingUp,
-      color: "text-chart-3",
+      color: "text-chart-1",
     },
     {
       title: "Total de Treinos",
       value: totalSessions.toString(),
-      icon: Calendar,
-      color: "text-chart-4",
+      icon: Footprints,
+      color: "text-chart-2",
     },
   ]
 
