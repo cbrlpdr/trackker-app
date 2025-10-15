@@ -44,8 +44,8 @@ npm run dev
 
 6. Acesse a aplicação em http://localhost:3000.
 
-Deploy
+## Deploy
 Para fazer o deploy, recomendamos o uso da Vercel. Consulte a documentação oficial do Next.js para mais detalhes.
 
-Contribuição
+## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
